@@ -228,11 +228,11 @@
       "exp": 1e+27,
       "limit": 1000000000000000000,
       "lastclaim": 0,
-      "registered": false,
+      "registered": true,
       "spammer": 0,
       "antispam": 0,
       "antispamlastclaim": 0,
-      "name": "Who am I?",
+      "name": "Kamu Nenye",
       "pasangan": "",
       "haus": 100,
       "laper": 100,
@@ -240,8 +240,8 @@
       "pc": 1674393943205,
       "joinlimit": 1,
       "coin": 0,
-      "age": -1,
-      "regTime": -1,
+      "age": 20,
+      "regTime": 1674829118382,
       "afk": -1,
       "tigame": 50,
       "afkReason": "",
@@ -2220,7 +2220,7 @@
       "warn": 0,
       "warning": 0,
       "level": 1111,
-      "role": "Newbie ㋡",
+      "role": "THE EMERALD",
       "autolevelup": false,
       "rumahsakit": 0,
       "fortress": 0,
@@ -2234,7 +2234,7 @@
       "korbanngocok": 0,
       "Banneduser": false,
       "BannedReason": "",
-      "money": 1000000000000000000,
+      "money": 99999999,
       "bank": 0,
       "atm": 0,
       "fullatm": 0,
@@ -2977,10 +2977,10 @@
       "lastSuccess": 1674463962234
     },
     "yuki-bot.js": {
-      "total": 52,
-      "success": 49,
-      "last": 1674750382463,
-      "lastSuccess": 1674750382463
+      "total": 53,
+      "success": 50,
+      "last": 1674827345405,
+      "lastSuccess": 1674827345405
     },
     "setbotpp.js": {
       "total": 7,
@@ -3001,10 +3001,10 @@
       "lastSuccess": 1674467318820
     },
     "main-menulist.js": {
-      "total": 3,
-      "success": 2,
-      "last": 1674466435665,
-      "lastSuccess": 1674466350766
+      "total": 6,
+      "success": 5,
+      "last": 1674831216721,
+      "lastSuccess": 1674831216721
     },
     "_assalamualaikum.js": {
       "total": 4,
@@ -3013,10 +3013,10 @@
       "lastSuccess": 1674476864647
     },
     "Waalaikumsalam.js": {
-      "total": 3,
-      "success": 0,
-      "last": 1674477078462,
-      "lastSuccess": 0
+      "total": 7,
+      "success": 2,
+      "last": 1674830550465,
+      "lastSuccess": 1674830031820
     },
     "speed.js": {
       "total": 2,
@@ -3025,16 +3025,22 @@
       "lastSuccess": 0
     },
     "p.js": {
-      "total": 6,
-      "success": 6,
-      "last": 1674811571014,
-      "lastSuccess": 1674811571014
+      "total": 11,
+      "success": 10,
+      "last": 1674831146007,
+      "lastSuccess": 1674831146007
     },
     "main-menu-1.js": {
-      "total": 3,
-      "success": 3,
-      "last": 1674824582030,
-      "lastSuccess": 1674824582030
+      "total": 9,
+      "success": 9,
+      "last": 1674831185767,
+      "lastSuccess": 1674831185767
+    },
+    "exp-daftar.js": {
+      "total": 4,
+      "success": 4,
+      "last": 1674829137500,
+      "lastSuccess": 1674829137500
     }
   },
   "msgs": {
@@ -3072,7 +3078,7 @@
       "restrict": true,
       "autorestart": true,
       "restartDB": 0,
-      "status": 1674824772293,
+      "status": 1674831199846,
       "anticall": true,
       "clear": true,
       "clearTime": 0,

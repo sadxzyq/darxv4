@@ -52,7 +52,7 @@ const sections = [{
 title: `⟥⟝⟢⟨ SC Bᴏᴛ ⟩⟣⟞⟤`,
 rows: [
 {title: "⟣⟨ SC BOT DARK ⟩⟢",
-rowId: '.github',
+rowId: '.sc',
 description: '☰⟥⟝⟞⟝❨ *_SCRIPT_* ❩⟞⟝⟞⟤☰ Pengen mentahan nya ? Nih ada santai bro.... https://github.com/sadxzyq/darxv3 Pengen Yang Model Script Bot Seperti Ini Bro? Mampir Aja Ke GITHUB Diatas *FREE* contact Owner wa.me/6282285357346' },
 ]},
 {
@@ -72,6 +72,13 @@ const listMessage = {
   sections
 }
 
+  case 'sc': 
+  let teks = `*${htki} ${command.toUpperCase()} ${htka}*\n📮 : ${text}\n*- @${m.sender.split`@`[0]}*`
+conn.reply(global.nomorown + '@s.whatsapp.net', m.quoted ? teks + m.quoted.text : teks, null, {
+        contextInfo: {
+            mentionedJid: [m.sender]
+        }
+    })
 let type = (args[0] || '').toLowerCase()
   let isAll = false, isUser = false
   switch (type) {

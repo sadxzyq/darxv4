@@ -52,13 +52,13 @@ let assl = assal[Math.floor(Math.random() * assal.length)]
           text: em.getRandom(),
           key: m.key,
         }})
-    setTimeout(() => { m.reply('Waalaikumsalam')
+    setTimeout(() => { m.reply('Waalaikumussalam')
     conn.sendFile(m.chat, assalamualaikum, '', '', m, true)
     }, 1000)
     }
     
 
-    let Ara = /(.menu)/i
+    let Ara = /(menu)/i
     let isArr = Ara.exec(m.text)
     let Arra = [
 '😜',
@@ -133,40 +133,18 @@ let haala = haa[Math.floor(Math.random() * haa.length)]
     conn.sendFile(m.chat, hloo, '', '', m, true)
     }, 1000)
     }
-    //respond panggilan 
-       let oy = /(bang|woi|cok|bot|dark|dar|?|we|wee|cuk|cuy|sat|bott|satrio)/i
-let isoy = oy.exec(m.text)
-let oi = [
-'😈',
-'🗿',
-'😪',
-'😼',
-'😶',
-]
-let oy = oi[Math.floor(Math.random() * oi.length)]
-    if (isoy && !m.fromMe) {
-    let oyy = fs.readFileSync('./mp3/pp.mp3')
-    conn.sendMessage(m.chat, {
-        react: {
-          text: em.getRandom(),
-          key: m.key,
-        }})
-        setTimeout(() => {
-    conn.sendFile(m.chat, oyy, '', '', m, true)
-    }, 1000)
-    }
     //Respond p
    let pe = /(p)/i
-let ispe = pe.exec(m.text)
+let ispi = pe.exec(m.text)
 let pa = [
 '🖕',
 '🙄',
 '😪',
 '😼',
-'😱',
+'😱'
 ]
-let pe = pa[Math.floor(Math.random() * pa.length)]
-    if (ispe && !m.fromMe) {
+let pep = pa[Math.floor(Math.random() * pa.length)]
+    if (ispi && !m.fromMe) {
     let pp = fs.readFileSync('./mp3/pp.mp3')
     conn.sendMessage(m.chat, {
         react: {
@@ -175,6 +153,20 @@ let pe = pa[Math.floor(Math.random() * pa.length)]
         }})
         setTimeout(() => {
     conn.sendFile(m.chat, pp, '', '', m, true)
+    }, 1000)
+    }
+        //respond panggilan 
+       let oy = /(bang|woi|cok|bot|dark|dar|we|wee|cuk|cuy|sat|bott|satrio)/i
+let isoiy = oy.exec(m.text)
+    if (isoiy && !m.fromMe) {
+    let oyy = fs.readFileSync('./mp3/oy.mp3')
+    conn.sendMessage(m.chat, {
+        react: {
+          text: em.getRandom(),
+          key: m.key,
+        }})
+        setTimeout(() => {
+    conn.sendFile(m.chat, oyy, '', '', m, true)
     }, 1000)
     }
             //Respond yntkts

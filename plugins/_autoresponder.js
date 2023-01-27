@@ -64,7 +64,7 @@ let cintakamuh = cinmu[Math.floor(Math.random() * cinmu.length)]
     if (isSayangKamu && !m.fromMe) {
     conn.sendMessage(m.chat, {
         react: {
-          text: `${sayangkamuh}`,
+          text: ` `,
           key: m.key,
         }})
    setTimeout(() => {

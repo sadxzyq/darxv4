@@ -4,7 +4,7 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
 let info = fs.readFileSync('./mp3/waalaikumussalam.ogg')
 
 let td = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
-const message = {
+/*const message = {
             document: { url: thumb },
             jpegThumbnail: await (await fetch(thumb)).buffer(), fileName: global.wm, mimetype: td, fileLength: '9999999', pageCount: '999',
             caption: info,
@@ -12,8 +12,8 @@ const message = {
             templateButtons: [
                 {
                     urlButton: {
-                        displayText: '🌎 MY IG',
-                        url: sig
+                        displayText: '🌎 OFFICIAL GROUP',
+                        url: sgc
                     }
                 },
                 {
@@ -41,7 +41,7 @@ const message = {
                     }
                 },
             ]
-        }
+        }*/
         return await conn.sendMessage(m.chat, message)
 conn.reply(m.chat, info, m, { quoted: fkontak },{ contextInfo: { externalAdReply: { showAdAttribution: true,
       mediaUrl: "https://github.com/sadxzyq",
