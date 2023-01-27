@@ -247,7 +247,7 @@ let gktau = gk[Math.floor(Math.random() * gk.length)]
    let sc = /(sc)/i
     let isesce = sc.exec(m.text)
     if (isesce && !m.fromMe) {
-    let esc = fs.readFileSync('./mp3/sc mp3')
+    let esc = fs.readFileSync('./mp3/sc.mp3')
     conn.sendMessage(m.chat, {
         react: {
           text: em.getRandom(),
