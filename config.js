@@ -296,6 +296,7 @@ global.fotonya2 = 'https://telegra.ph/file/12ef4b5b06b3b906ffb93.jpg' //ini juga
 global.thumb = 'https://telegra.ph/file/12ef4b5b06b3b906ffb93.jpg' 
 global.imagebot = 'https://telegra.ph/file/12ef4b5b06b3b906ffb93.jpg'
 global.giflogo = 'https://telegra.ph/file/6721bc885cdfc46102c49.jpg'
+global.giflogo2 = 'https://telegra.ph/file/8500c433a860b54d855e5.jpg'
 global.zykomd = 'https://telegra.ph/file/f77de604ec4ed3ce8dc54.jpg'
 global.thumbs = ['https://telegra.ph/file/2e8d2ef0926e848626a43.jpg']
 global.thumbnailUrl = [

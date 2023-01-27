@@ -229,6 +229,48 @@ let gktau = gk[Math.floor(Math.random() * gk.length)]
     conn.sendFile(m.chat, sange, '', '', m, true)
     }, 1000)
     }
+       //Respond gak boleh
+   let owner = /(owner)/i
+    let isown = owner.exec(m.text)
+    if (isown && !m.fromMe) {
+    let ow = fs.readFileSync('./mp3/owner.mp3')
+    conn.sendMessage(m.chat, {
+        react: {
+          text: em.getRandom(),
+          key: m.key,
+        }})
+        setTimeout(() => {
+    conn.sendFile(m.chat, ow, '', '', m, true)
+    }, 1000)
+    }
+       //Respond sc
+   let sc = /(sc)/i
+    let isesce = sc.exec(m.text)
+    if (isesce && !m.fromMe) {
+    let esc = fs.readFileSync('./mp3/sc mp3')
+    conn.sendMessage(m.chat, {
+        react: {
+          text: em.getRandom(),
+          key: m.key,
+        }})
+        setTimeout(() => {
+    conn.sendFile(m.chat, esc, '', '', m, true)
+    }, 1000)
+    }
+       //Respond tqto
+   let tqto = /(tqto)/i
+    let istq = tqto.exec(m.text)
+    if (istq && !m.fromMe) {
+    let tqt = fs.readFileSync('./mp3/tqto.mp3')
+    conn.sendMessage(m.chat, {
+        react: {
+          text: em.getRandom(),
+          key: m.key,
+        }})
+        setTimeout(() => {
+    conn.sendFile(m.chat, tqt, '', '', m, true)
+    }, 1000)
+    }
     //Respond nantang
    let gelud = /(nantang|gelut|gelud)/i
     let isahh = gelud.exec(m.text)
