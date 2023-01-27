@@ -5,10 +5,10 @@ let handler = async (m, { conn, command, text }) => {
   let name = await conn.getName(m.sender)
   let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
   let pp = await conn.profilePictureUrl(who, 'image').catch((_) => "https://telegra.ph/file/12ef4b5b06b3b906ffb93.jpg" )
-await conn.sendButton(m.chat, `Iya kak ${cmenut}${name}${cmenuh} Saya *${await conn.getName(conn.user.jid)}* ☰⟥⟝⟞⟝❨ *_SCRIPT_* ❩⟞⟝⟞⟤☰ https://github.com/sadxzyq/darxv4 contact Owner wa.me/6282285357346\n`,wm + '\n\n' + botdate, [['「MENU」','.menu']], m,)
+await conn.sendButton(m.chat, `☰⟥⟝⟞⟝❨ *_SCRIPT_* ❩⟞⟝⟞⟤☰\nNih sc DarkxBot yg v4 awokawok\nhttps://github.com/sadxzyq/darxv4\ncontact Owner wa.me/6282285357346\n`,wm + '\n\n' + botdate, [['「TQ.TO」','.tqto']], m,)
 }
 handler.command = /^(sc)$/i
-handler.tags = ['info']
+handler.tags = ['info','main']
 handler.help = ['sc']
 
 export default handler
