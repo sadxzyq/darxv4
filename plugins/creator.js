@@ -20,7 +20,7 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 //------------ BIO
 let ppown = await conn.profilePictureUrl(nomorown + '@s.whatsapp.net', 'image').catch(_ => hwaifu[1]) 
 let teksbio = `${htki} *BIODATA* ${htka}
-${htjava} *💌 Nama* : 𝙳𝚊𝚛𝚔𝚡
+${htjava} *💌 Nama* : 𝙳𝚊𝚛𝚔𝚡 *ytta*
 ${htjava} *♂️ Gender* : Boys
 ${htjava} *🕋 Agama* : Islam
 ${htjava} *⏰ Tanggal lahir* : Private 🥶
@@ -40,7 +40,6 @@ const sections = [
 	title: `${htjava} OWNER –––––––––·•`,
 	rows: [
 	{title: "📱 • Nomor Owner x Creator", rowId: ".owner nomor"},
-	{title: "📱 • Creator", rowId: ".zykomods3"},
 	{title: "🎨 • Biodata", rowId: ".owner bio"},
 	{title: "🌎 • Script", rowId: ".sc"},
 	]
