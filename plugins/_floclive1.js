@@ -15,7 +15,7 @@ let msg = await generateWAMessageFromContent(m.chat, { locationMessage: {
   degreesLongitude: 0,
   name: '𝗠𝗨𝗟𝗧𝗜 𝗗𝗘𝗩𝗜𝗖𝗘 𝗕𝗢𝗧',
   address: wm,
-  url: 'https://lynk.id/kabul',
+  url: 'https://instagram.com',
   isLive: true,
   accuracyInMeters: 0,
   speedInMps: 0,

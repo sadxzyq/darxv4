@@ -14,8 +14,8 @@ const anu = {
                  "videoMessage": { 
                  "title":"Haii Kak",
                  "h": `Hmm`,
-                 'seconds': '182', 
-                 'caption': 'Nothing ^^',
+                 'seconds': '999', 
+                 'caption': 'Dark benci cinta',
                  'jpegThumbnail': fs.readFileSync('./thumbnail.jpg')
                         }
                        }

@@ -3027,6 +3027,12 @@
       "success": 6,
       "last": 1674811571014,
       "lastSuccess": 1674811571014
+    },
+    "main-menu-1.js": {
+      "total": 3,
+      "success": 3,
+      "last": 1674824582030,
+      "lastSuccess": 1674824582030
     }
   },
   "msgs": {
@@ -3064,7 +3070,7 @@
       "restrict": true,
       "autorestart": true,
       "restartDB": 0,
-      "status": 1674811563030,
+      "status": 1674824581740,
       "anticall": true,
       "clear": true,
       "clearTime": 0,
