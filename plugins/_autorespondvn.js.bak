@@ -231,8 +231,8 @@ let gktau = gk[Math.floor(Math.random() * gk.length)]
     }
        //Respond owner
    let owner = /(owner)/i
-    let iswn = owner.exec(m.text)
-    if (iswn && !m.fromMe) {
+    let isown = owner.exec(m.text)
+    if (isown && !m.fromMe) {
     let owwn = fs.readFileSync('./mp3/owner.mp3')
     conn.sendMessage(m.chat, {
         react: {
