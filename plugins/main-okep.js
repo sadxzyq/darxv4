@@ -1,13 +1,13 @@
 let { MessageType } = (await import('@adiwajshing/baileys')).default
 import moment from 'moment-timezone'
-let handler  = async (m, { conn, command, name, args, usedPrefix, DevMode }) => {
+let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
   let type = (args[0] || '').toLowerCase()
   let _type = (args[0] || '').toLowerCase()
-let name = conn.getName(m.sender)
-  let teks = `Hai ${name} lu bocah samnge ya awokawok\ncanda samnge 🗿`
+
+  let teks = `Hai ${name} lu bocah samnge ya awokawok\ncanda samnge 🗿\nᴍᴀᴅᴇ ᴡɪᴛʜ ʙʏ ${nameown}\n\n${botdate}\n\n${wm2}`
 const sections = [
    {
-    title: `${htki} Bokep Viral Vol 0-3 ${htka}`,
+	    title: `${htki} Bokep Viral Vol 0-3 ${htka}`,
     rows: [
         {title: `🪦 ${pmenus} Viral`, rowId: ".viral", description: "VIDEO VIRALL VOL 0"},
 {title: `🪦 ${pmenus} Viral`, rowId: ".viral1", description: "VIDEO VIRALL VOL 1"},
@@ -22,20 +22,29 @@ const sections = [
     title: `${htki} ${namebot} ${htka}`,
     rows: [
     {title: `${htki} GABUT COK ${htka}`, rowid: ".bot", description: "⌸⌸⌸⌸⌸⌸"},
-    ]},
+	]
+  },{
+	title: `${htjava} SUPPORT ME –––––––·•`,
+	rows: [
+	    {title: "🪦 • Back", rowId: ".tesm"},
+	{title: "😈 • Home", rowId: ".menu"},
+	{title: "😱 • Random", rowId: ".viral"},
+	]
+  },
 ]
+
 const listMessage = {
   text: ` `,
   footer: teks,
-  title: `ᴍᴀᴅᴇ ᴡɪᴛʜ ʙʏ ${nameown}\n\n${botdate}\n\n${wm2}`,
- buttonText: `🪦 RIP(ingat ajal bro) 🪦`, 
+  title: 'ᴄʟɪᴄᴋ ʙᴜᴛᴛᴏɴ ɴᴏᴡ!\n【 ʟɪsᴛ Viral ᴍᴇɴᴜ 】',
+  buttonText: "Pʟᴀʏɪɴɢ Nᴏᴡ...",
   sections
 }
 await conn.sendMessage(m.chat, listMessage, { quoted: fkontak, mentions: await conn.parseMention(teks), contextInfo:{ forwardingScore: 99999, isForwarded: true }})
 }
 
 handler.help = ['okeplist']
-handler.tags = ['main','premium']
+handler.tags = ['premium']
 handler.command = /^(okeplist)/i
 handler.register = true
 
