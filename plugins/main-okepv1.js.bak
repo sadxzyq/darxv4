@@ -21,9 +21,8 @@ const sections = [
     ]},{
     title: `${htki} ${namebot} ${htka}`,
     rows: [
-    {title: `${htki} GABUT COK ${htka}`, rowid: ".bot", description: "⌸⌸⌸⌸⌸⌸"}
-    ]
-    }
+    {title: `${htki} GABUT COK ${htka}`, rowid: ".bot", description: "⌸⌸⌸⌸⌸⌸"},
+    ]}
 ]
 const listMessage = {
   text: teks,
