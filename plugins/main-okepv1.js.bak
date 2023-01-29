@@ -16,7 +16,7 @@ const sections = [
     ]},
     {
     title: `${htki} Other menu ${htka}`
-    rows: [
+    row: [
     {title: `🪦 ${pmenus} Okep nya.!`, rowId: ".bokep", description: "VIDEO Okep.."},
     ]},{
     title: `${htki} ${namebot} ${htka}`,
