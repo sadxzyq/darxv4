@@ -49,7 +49,7 @@ rows: [
 ]
 
 const listMessage = {
-  text: `botdate`,
+  text: `DAFTAR DULU YA KAK!`,
   footer: `┗ *ʏᴏᴜʀ ɴᴀᴍᴇ:* ${conn.getName(m.sender)}\n<❔> Want a costume name? type *${usedPrefix + command} yourname.age*`,
   title: "▢- - - - - ʀᴇɢɪsᴛᴇʀ - - - - -",
   buttonText: "Click Here !",
@@ -63,8 +63,8 @@ const listMessage = {
   if (!name) throw `hallo @${m.sender.split(`@`)[0]} Nama tidak boleh kosong (Alphanumeric)`
   if (!age) throw `hallo ${name} Umur tidak boleh kosong (Angka)`
   age = parseInt(age)
-  if (age > 20) throw 'WOI TUA (。-`ω´-)'
-  if (age < 16) throw 'Halah dasar bocil'
+  if (age > 28) throw 'WOI TUA (。-`ω´-)'
+  if (age < 7) throw 'Halah dasar bocil'
   user.name = name.trim()
   user.age = age
   user.regTime = + new Date

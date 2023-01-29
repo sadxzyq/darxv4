@@ -68,7 +68,7 @@ let assl = assal[Math.floor(Math.random() * assal.length)]
 ]
 let Araa = Arra[Math.floor(Math.random() * Arra.length)]
     if (isArr && !m.fromMe) {
-    let Arraa = fs.readFileSync('./mp3/patrik.mp3')
+    let Arraa = fs.readFileSync('./mp3/patrick.mp3')
     conn.sendMessage(m.chat, {
         react: {
           text: em.getRandom(),
@@ -98,14 +98,14 @@ let njy = Anjj[Math.floor(Math.random() * Anjj.length)]
     }, 1000)
     }
     //Respond aman?
-   let aman = /(aman|amn|amangak)/i
+   let aman = /(anjing|anj|ajg|anjnk|anjim|asu|babi|tod|ngentod|ngtd|kontol|memek|mek|tempek|kampang|dancok|cok|su|bbi|ajng|anjnk|tol|kontol|kntl|jing|jng)/i
     let isam = aman.exec(m.text)
     let amn = [
-'😅'
+'😱'
 ]
 let man = amn[Math.floor(Math.random() * amn.length)]
     if (isam && !m.fromMe) {
-    let mmn = fs.readFileSync('./mp3/amangak.mp3')
+    let mmn = fs.readFileSync('./mp3/wtf.mp3')
     conn.sendMessage(m.chat, {
         react: {
           text: em.getRandom(),
@@ -134,7 +134,7 @@ let haala = haa[Math.floor(Math.random() * haa.length)]
     }, 1000)
     }
     //Respond p
-   let pe = /(p)/i
+   let pe = /(pe|p)/i
 let ispi = pe.exec(m.text)
 let pa = [
 '🖕',
@@ -202,10 +202,10 @@ let gktau = gk[Math.floor(Math.random() * gk.length)]
     }, 1000)
     }
                                //Respond apaantuh
-   let paan = /(apaan tuh|apaan)/i
+   let paan = /(jadianime)/i
     let isand = paan.exec(m.text)
     if (isand && !m.fromMe) {
-    let gpan = fs.readFileSync('./mp3/apaan.mp3')
+    let gpan = fs.readFileSync('./mp3/anime.mp3')
     conn.sendMessage(m.chat, {
         react: {
           text: em.getRandom(),
@@ -216,7 +216,7 @@ let gktau = gk[Math.floor(Math.random() * gk.length)]
     }, 1000)
     }
    //Respond gak boleh
-   let nsfw = /(nsfw)/i
+   let nsfw = /(nsfw|viral|viral1|viral2|viral3|bokep)/i
     let issu = nsfw.exec(m.text)
     if (issu && !m.fromMe) {
     let sange = fs.readFileSync('./mp3/dosapantek.mp3')
