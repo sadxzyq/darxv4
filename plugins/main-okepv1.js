@@ -20,7 +20,9 @@ const sections = [
     {title: `🪦 ${pmenus} Okep nya.!`, rowId: ".bokep", description: "VIDEO Okep.."},
     ]},{
     title: `${htki} ${namebot} ${htka}`,
-    }
+    rows: [
+    {title: `${htki} GABUT COK ${htka}`, rowid: ".bot", description: "⌸⌸⌸⌸⌸⌸"},
+    ]}
 ]
 const listMessage = {
   text: teks,

@@ -305,7 +305,7 @@ const sections = [
         {title: `📔 ${pmenus} SCRIPT BOT`, rowId: ".sc", description: `Source Code ${namebot}`},
     ]
       },{
-      title: `☬ GBTZ ${botdate} YGY ☬`,
+      title: `☬ GBTZ${botdate}`,
       rows: [
       {title: `⌸ DarkxBot ${wm} `,
       rowid: ".igdark", description: `☬ DarkxBot ~ ${namebot} v4 ☬`},

@@ -16,10 +16,13 @@ const sections = [
     ]},
     {
     title: `${htki} Other menu ${htka}`
-    row: [
+    rows: [
     {title: `🪦 ${pmenus} Okep nya.!`, rowId: ".bokep", description: "VIDEO Okep.."},
     ]},{
     title: `${htki} ${namebot} ${htka}`,
+    rows: [
+    {title: `${htki} GABUT COK ${htka}`, rowid: ".bot", description: "⌸⌸⌸⌸⌸⌸"}
+    ]
     }
 ]
 const listMessage = {
