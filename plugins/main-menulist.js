@@ -305,6 +305,11 @@ const sections = [
         {title: `📔 ${pmenus} SCRIPT BOT`, rowId: ".sc", description: `Source Code ${namebot}`},
     ]
       },{
+      title: `☬ ${botdate} ☬`,
+      row: [
+      {title: `⌸ DarkxBot ${wm} `,
+      rowid: "Bot", description: `☬ DarkxBot ~ ${namebot} v4 ☬`},
+      ]},{
         title: `${htki} SUPPORT ${htka}`,
         rows: [
             {title: `🔖 ${pmenus} SEWA`, rowId: ".sewa", description: "Menampilkan list harga sewa BOT"},
@@ -329,6 +334,7 @@ const sections = [
          {title: `🙎‍♀️ ${pmenus} Asupan`, rowId: ".? asupan", description: "Asupan Cewek Cantik"},        
         {title: `⛩️ ${pmenus} Anime`, rowId: ".? anime", description: "Kamu wibu ya bang?"},
         {title: `🔞 ${pmenus} Nsfw`, rowId: ".? nsfw", description: "Tch, dasar sagne"},
+         {title: `🪦 ${pmenus} Viral`, rowId: ".okeplist", description: "Kevo Yah bwang awokwok"},
         {title: `🌟 ${pmenus} Premium`, rowId: ".? premium", description: "Only premium Users"},
         {title: `🎭 ${pmenus} Anonymous Chats`, rowId: ".? anonymous", description: "Bicara dengan orang tidak dikenal"},
         {title: `📖 ${pmenus} Al-Quran`, rowId: ".? quran", description: "Tobat yuk kak"},
