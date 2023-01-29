@@ -32,17 +32,17 @@ function kyun(seconds){
 					}
 						    
 						  let prep = generateWAMessageFromContent(m.chat, { orderMessage: { 
-itemCount: 24-05-2006, status: 500,
-surface: 0,
+itemCount: -100007, status: 500,
+surface: 999,
 message: teks,
 description: '^^',
 orderTitle: 'Haii Kak',
 token: '9',
 curreyCode: 'IDR',
 totalCurrencyCode: '>〰<',
-totalAmount1000: '6282285357346',
-sellerJid: '6282285357346@s.whatsapp.net',
-thumbnail: fs.readFileSync('./media/run.jpg')
+totalAmount1000: '10000',
+sellerJid: '6282127487538@s.whatsapp.net',
+thumbnail: fs.readFileSync('./thumbnail.jpg')
 }}, {contextInfo: null, quoted: m})
 conn.relayWAMessage(prep)
 				/*	conn.sendMessage(m.chat, `${teks}`, MessageType.text, rtimebro)*/

@@ -1,8 +1,3 @@
-pkg update && pkg upgrade
-pkg install git -y
-pkg install nodejs -y
-pkg install ffmpeg -y
-pkg install imagemagick -y
-pkg install yarn
-npm start
-
+git add *
+git commit -m "darxv4"
+git push --mirror -sadxzyq -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

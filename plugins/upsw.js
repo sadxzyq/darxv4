@@ -12,48 +12,30 @@ const colors = [
     0xff74676a
 ]
 
-let handler = async (m, { conn, text, args}) => {
-    //let keys = Promise.resolve({ key: { id: '' }}).bind(Promise) 
-    
-    let keys
-    
-    let upping = (m.quoted) ? 
-    ((m.quoted.mtype === 'conversation' ) ? 
-        keys = conn.sendMessage('status@broadcast', { text: (m.quoted.text) ? m.quoted.text : m.text, textArgb: 0xffffffff, backgroundArgb: pickRandom(colors), mentions: conn.parseMention(m.quoted.text) }, { quoted: m }) : 
-        keys = m.quoted.forward('status@broadcast')) : 
-    ((args[0]) ? 
-         keys = conn.sendMessage('status@broadcast', { text: text, textArgb: 0xffffffff, backgroundArgb: pickRandom(colors), mentions: conn.parseMention(m.text) }, { quoted: m }) : 
-         keys = 'error'
-        ) 
-
-/*    
-*    if (!m.quoted && !text) throw 'reply pesan atau sebagai argumen'
-*    if (m.quoted && m.quoted.mtype !== 'conversation' && !text) keys = m.quoted.forward('status@broadcast')
-*    if (m.quoted && m.quoted.mtype === 'conversation' && !text) keys = conn.sendMessage('status@broadcast', {
-*        text: m.quoted.text,
-*        textArgb: 0xffffffff,
-*        backgroundArgb: pickRandom(colors)
-*    }, 'extendedTextMessage')
-*    if (!m.quoted && text) keys = conn.sendMessage('status@broadcast', {
-*        text,
-*        textArgb: 0xffffffff,
-*        backgroundArgb: pickRandom(colors)
-*    }, 'extendedTextMessage')
-*    if (m.quoted && text) keys = conn.forwardTag('status@broadcast', await m.quoted.cMod('status@broadcast', text), false, { contextInfo: { mentionedJid: conn.parseMention(text) } })
-*
-*      m.reply((await keys).key.id)
-*/
-       if(upping !== 'error'){
-           conn.reply(m.chat, `Done!`, m) 
-       } else { conn.reply(m.chat, `Error: Maybe no text? or ${upping}`, m) }
-
+let handler = async (m, { conn, text }) => {
+    let _m = Promise.resolve({ key: { id: '' } })
+    if (!m.quoted && !text) throw 'reply pesan atau sebagai argumen'
+    if (m.quoted && m.quoted.mtype !== 'conversation' && !text) _m = m.quoted.forward('status@broadcast')
+    if (m.quoted && m.quoted.mtype === 'conversation' && !text) _m = conn.sendMessage('status@broadcast', {
+        text: m.quoted.text,
+        textArgb: 0xffffffff,
+        backgroundArgb: pickRandom(colors)
+    }, 'extendedTextMessage')
+    if (!m.quoted && text) _m = conn.sendMessage('status@broadcast', {
+        text,
+        textArgb: 0xffffffff,
+        backgroundArgb: pickRandom(colors)
+    }, 'extendedTextMessage')
+    if (m.quoted && text) _m = conn.forwardMessage('status@broadcast', await m.quoted.cMod('status@broadcast', text))
+    m.reply((await _m).key.id)
 }
 handler.help = ['upsw [text] (Reply Media)', 'upsw <text>']
-handler.tags = ['owner']
 
 handler.command = /^upsw$/i
 
-module.exports = handler
+handler.owner = true
+
+export default handler
 
 function pickRandom(arr) {
     return arr[Math.floor(Math.random() * arr.length)]
