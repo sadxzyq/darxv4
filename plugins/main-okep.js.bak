@@ -15,7 +15,7 @@ const sections = [
         {title: `🪦 ${pmenus} Viral`, rowId: ".viral3", description: "VIDEO VIRALL VOL 3"},
     ]},
     {
-    title: `${htki} Other menu ${htka}`
+    title: `${htki} Other menu ${htka}`,
     rows: [
     {title: `🪦 ${pmenus} Okep nya.!`, rowId: ".bokep", description: "VIDEO Okep.."},
     ]},{
@@ -24,7 +24,7 @@ const sections = [
     {title: `${htki} GABUT COK ${htka}`, rowid: ".bot", description: "⌸⌸⌸⌸⌸⌸"},
 	]
   },{
-	title: `${htjava} SUPPORT ME –––––––·•`,
+	title: `${htjava} Other –––––––·•`,
 	rows: [
 	    {title: "🪦 • Back", rowId: ".tesm"},
 	{title: "😈 • Home", rowId: ".menu"},
@@ -36,7 +36,7 @@ const sections = [
 const listMessage = {
   text: ` `,
   footer: teks,
-  title: 'ᴄʟɪᴄᴋ ʙᴜᴛᴛᴏɴ ɴᴏᴡ!\n【 ʟɪsᴛ Viral ᴍᴇɴᴜ 】',
+  title: 'ᴄʟɪᴄᴋ ʙᴜᴛᴛᴏɴ ɴᴏᴡ!',
   buttonText: "Pʟᴀʏɪɴɢ Nᴏᴡ...",
   sections
 }

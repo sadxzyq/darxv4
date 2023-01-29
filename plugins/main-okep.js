@@ -4,7 +4,7 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
   let type = (args[0] || '').toLowerCase()
   let _type = (args[0] || '').toLowerCase()
 
-  let teks = `Hai ${name} lu bocah samnge ya awokawok\ncanda samnge 🗿\nᴍᴀᴅᴇ ᴡɪᴛʜ ʙʏ ${nameown}\n\n${botdate}\n\n${wm2}`
+  let teks = `Hai Tod! lu bocah samnge ya awokawok\ncanda samnge 🗿\nᴍᴀᴅᴇ ᴡɪᴛʜ ʙʏ ${nameown}\n\n${botdate}\n\n${wm2}`
 const sections = [
    {
 	    title: `${htki} Bokep Viral Vol 0-3 ${htka}`,
