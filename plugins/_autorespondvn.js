@@ -105,7 +105,7 @@ let njy = Anjj[Math.floor(Math.random() * Anjj.length)]
 ]
 let man = amn[Math.floor(Math.random() * amn.length)]
     if (isam && !m.fromMe) {
-    let mmn = fs.readFileSync('./mp3/wtf.mp3')
+    let mmn = fs.readFileSync('./mp3/Wtf.mp3')
     conn.sendMessage(m.chat, {
         react: {
           text: em.getRandom(),
@@ -134,7 +134,7 @@ let haala = haa[Math.floor(Math.random() * haa.length)]
     }, 1000)
     }
     //Respond p
-   let pe = /(pe|p)/i
+   let pe = /(pe)/i
 let ispi = pe.exec(m.text)
 let pa = [
 '🖕',
